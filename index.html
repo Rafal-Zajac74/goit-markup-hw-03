@@ -10,23 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/modern-normalize.min.css">
 </head>
 <body>
 <header>
+    <div class="container">
+    <div class="header-container">
     <nav class="menu-nav">
-    <a href="index.html"><p class="logo-web">Web<span class="logo-studio-black">Studio</span></p></a>
         <ul class="submenu-nav">
-            <li><a class="links-header" href="#">Agencja</a></li>
-            <li><a class="links-header" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="links-header" href="#">Kontakt</a></li>
+            <li><a href="index.html"><p class="logo-web">Web<span class="logo-studio-black">Studio</span></p></a></li>
+            <li><a href="#">Agencja</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="#">Kontakt</a></li>
         </ul>
     </nav>
     <ul class="menu-link">
-        <li><a class="links-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <li><a class="links-header" href="tel:+48111111111">+48 111 111 111</a></li>
+        <li class="menu-link-list"><a class="links-header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <li class="menu-link-list"><a class="links-header-tel" href="tel:+48111111111">+48 111 111 111</a></li>
     </ul>
+    </div>
+    </div>
 </header>
     <main>
+    <div class="container">
        <div class="heading-box">
         <h1 class="heading-main">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="button-main" type="button">Zamów usługe</button>
@@ -87,8 +93,10 @@
                 </li>
             </ul>
         </section>
+    </div>
     </main>
     <footer class="footer-box">
+        <div class="container">
         <p class="logo-web">Web<span class="logo-studio-white">Studio</span></p>
         <address>
             <ul class="link-address">
@@ -97,6 +105,7 @@
                 <li><a class="links-footer" href="tel:+48111111111">+48 111 111 111</a></li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 </html>
