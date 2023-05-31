@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="./css/styles.css">
-         <link rel="stylesheet" href="./css/modern-normalize.min.css">
+        <link rel="stylesheet" href="./css/modern-normalize.min.css">
 </head>
 <body>
 <header>
@@ -18,10 +18,10 @@
     <div class="header-container">
     <nav class="menu-nav">
         <ul class="submenu-nav">
-            <li class="links-header"><a href="index.html"><p class="logo-web">Web<span class="logo-studio-black">Studio</span></p></a></li>
-            <li class="links-header"><a href="#">Agencja</a></li>
-            <li class="links-header"><a href="./portfolio.html">Portfolio</a></li>
-            <li class="links-header"><a href="#">Kontakt</a></li>
+            <li><a href="index.html"><p class="logo-web-header">Web<span class="logo-studio-black">Studio</span></p></a></li>
+            <li class="link-agency"><a href="#">Agencja</a></li>
+            <li class="link-portfolio"><a href="./portfolio.html">Portfolio</a></li>
+            <li class="link-contact"><a href="#">Kontakt</a></li>
         </ul>
     </nav>
     <ul class="menu-link">
@@ -33,9 +33,9 @@
 </header>
 <main>
 <div class="container">
-<section class="list-images">
+<section class="main-portfolio">
     <div class="portfolio-box">
-        <ul>
+        <ul class="buttons">
             <li><button class="list-battons" type="button">Wszystkie</button></li>
             <li><button class="list-battons" type="button">Strony</button></li>
             <li><button class="list-battons" type="button">Aplikacje</button></li>
@@ -43,49 +43,49 @@
             <li><button class="list-battons" type="button">Marketing</button></li>
         </ul>
     </div>
-    <ul>
+    <ul class="list-images">
         <li>
-            <img src="images/portfolio/portfolio-1.jpg" alt="Nasi specjaliści" width="370" height="294">
+            <img class="images-poftfolio" src="images/portfolio/portfolio-1.jpg" alt="Nasi specjaliści" width="370" height="294">
             <h3 class="heading-list-portfolio">Technocrack</h3>
             <span class="list-span-portfolio">Strona internetowa</span>
         </li>
         <li>
-            <img src="images/portfolio/portfolio-2.jpg" alt="Koszykarze" width="370" height="294">
+            <img class="images-poftfolio" src="images/portfolio/portfolio-2.jpg" alt="Koszykarze" width="370" height="294">
             <h3 class="heading-list-portfolio">Grafika New Orlean vs Golden Star</h3>
             <span class="list-span-portfolio">Dizajn</span>
         </li>
         <li>
-            <img src="images/portfolio/portfolio-3.jpg" alt="Logo restauracji z morskim jedzeniem" width="370" height="294">
+            <img class="images-poftfolio" src="images/portfolio/portfolio-3.jpg" alt="Logo restauracji z morskim jedzeniem" width="370" height="294">
             <h3 class="heading-list-portfolio">Restauracja Seafood</h3>
             <span class="list-span-portfolio">Aplikacja</span>
         </li>
         <li>
-            <img src="images/portfolio/portfolio-4.jpg" alt="Słuchawki" width="370" height="294">
+            <img class="images-poftfolio" src="images/portfolio/portfolio-4.jpg" alt="Słuchawki" width="370" height="294">
             <h3 class="heading-list-portfolio">Projekt Prime</h3>
             <span class="list-span-portfolio">Marketing</span>
         </li>
         <li>
-            <img src="images/portfolio/portfolio-5.jpg" alt="opakowania z tektury" width="370" height="294">
+            <img class="images-poftfolio" src="images/portfolio/portfolio-5.jpg" alt="opakowania z tektury" width="370" height="294">
             <h3 class="heading-list-portfolio">Projekt Boxes</h3>
             <span class="list-span-portfolio">Aplikacja</span>
         </li>
         <li>
-            <img src="images/portfolio/portfolio-6.jpg" alt="Monitor komputera" width="370" height="294">
+            <img class="images-poftfolio" src="images/portfolio/portfolio-6.jpg" alt="Monitor komputera" width="370" height="294">
             <h3 class="heading-list-portfolio">Inspiration has no Borders</h3>
             <span class="list-span-portfolio">Strona internetowa</span>
         </li>
         <li>
-            <img src="images/portfolio/portfolio-7.jpg" alt="kolorowe czasopismo" width="370" height="294">
+            <img class="images-poftfolio" src="images/portfolio/portfolio-7.jpg" alt="kolorowe czasopismo" width="370" height="294">
             <h3 class="heading-list-portfolio">Magazyn Limited Edition</h3>
             <span class="list-span-portfolio">Dizajn</span>
         </li>
         <li>
-            <img src="images/portfolio/portfolio-8.jpg" alt="karteczka z napisem na sznurku" width="370" height="294">
+            <img class="images-poftfolio" src="images/portfolio/portfolio-8.jpg" alt="karteczka z napisem na sznurku" width="370" height="294">
             <h3 class="heading-list-portfolio">Projekt LAB</h3>
             <span class="list-span-portfolio">Marketing</span>
         </li>
         <li>
-            <img src="images/portfolio/portfolio-9.jpg" alt="Włączony laptop" width="370" height="294">
+            <img class="images-poftfolio" src="images/portfolio/portfolio-9.jpg" alt="Włączony laptop" width="370" height="294">
             <h3 class="heading-list-portfolio">Growing Business</h3>
             <span class="list-span-portfolio">Aplikacja</span>
         </li>
@@ -95,7 +95,9 @@
 </main>
     <footer class="footer-box">
         <div class="container">
-        <p class="logo-web">Web<span class="logo-studio-white">Studio</span></p>
+        <div class="footer-web">
+            <p class="logo-web-footer">Web<span class="logo-studio-white">Studio</span></p>
+        </div>
         <address>
             <ul class="link-address">
                 <li><a class="links-footer" href="https://goo.gl/maps/VbSn34Kh2Uzp6g4f7">m. Warszawa, Aleje Jerozolimskie 21</a></li>
