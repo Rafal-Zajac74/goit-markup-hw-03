@@ -7,9 +7,18 @@ font: inherit;
 vertical-align: baseline;
 list-style-type: none;
 }
+img {
+display: block;
+max-width: 100%;
+height: auto;
+}
 body{
 font-family: 'Roboto', sans-serif;
 color: var(--body-text-color);
+}
+.container{
+width: 1200px;
+margin: 0 auto;
 }
 :root{
 --main-white-color: #FFFFFF;
@@ -118,7 +127,7 @@ margin: 0;
 }
 .button-main {
 background: var(--blue-color);
-border: var(--blue-color);
+border: 0;
 cursor: pointer;
 font-weight: 700;
 font-size: 16px;
@@ -128,7 +137,9 @@ letter-spacing: 0.06em;
 width: 200px;
 height: 50px;
 margin: 30px 500px;
-padding: 0; 
+padding: 0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px; 
 }
 .list-heading{
 font-style: normal;
@@ -260,22 +271,28 @@ text-decoration: none;
 font-size: 14px;
 line-height: 1.71;
 }
+.logo-studio-black:focus,
+.logo-studio-black:hover,
+.link-agency>a:focus,
+.link-agency>a:hover,
+.link-portfolio>:focus,
+.link-portfolio>a:hover,
+.link-contact>a:focus,
+.link-contact>a:hover,
+.submenu-nav>a:focus,
+.submenu-nav>a:hover,
 .menu-link-list>a:hover,
 .menu-link-list>a:focus,
-.menu-link-list>a:active,
 .links-footer:focus,
-.links-footer:hover,
-.links-footer:active{
+.links-footer:hover{
 color: var(--blue-color)
 }
+.button-main:focus,
+.button-main:hover,
 .list-battons:hover,
-.list-battons:focus,
-.list-battons:active{
+.list-battons:focus{
+color: var(--main-white-color);
 background-color: var(--blue-color);
-}
-.container{
-width: 1200px;
-margin: 0;
 }
 .menu-link-list{
 display: inline-flex;
@@ -288,11 +305,6 @@ align-items: center;
 .menu-link-list a{
 text-decoration: none;
 color: var(--body-text-color);
-}
-img {
-display: block;
-max-width: 100%;
-height: auto;
 }
 .nav-agencja{
 padding-left: 238px;
@@ -348,7 +360,7 @@ padding: 30px 79px 0;
 margin: 0;
 background: var(--main-white-color);
 }
-.job-title{;
+.job-title{
 height: 19px;
 padding: 10px 0 30px;
 margin: 0;
@@ -378,5 +390,5 @@ background: var(--main-white-color);
 }
 .main-portfolio{
 height: 1360px;
-margin: 0 0 184px;
+margin: 91px 0 184px;
 }
